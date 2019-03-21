@@ -16,7 +16,7 @@ public class Main {
 		
 		
 		 try {
-			 	RandomAccessFile f = new RandomAccessFile("/Users/wendel/Documents/faculdade/organizacao_estrutura_arquivos/cep_arquivo/cep_ordenado.dat","r");
+			 	RandomAccessFile f = new RandomAccessFile("cep_ordenado.dat","r");
 			 	fim = (f.length()/endereco.getTamanho())-1;
 		        while( inicio <= fim) // para Detectar EOF
 		        {
